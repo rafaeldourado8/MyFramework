@@ -1,0 +1,17 @@
+{
+  "name": "monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "shared/*",
+    "tools/*"
+  ],
+  "scripts": {
+    "dev": "echo 'Escolha um projeto específico'",
+    "build": "echo 'Build all projects'",
+    "test": "echo 'Run all tests'",
+    "lint": "echo 'Lint all projects'"
+  },
+  "devDependencies": {}
+}

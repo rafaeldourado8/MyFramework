@@ -5,13 +5,13 @@
 </p>
 
 <p align="center">
-<a href="https://github.com/yourusername/monorepo/actions" target="_blank">
+<a href="https://github.com/rafaeldourado8/MyFramework/actions" target="_blank">
     <img src="https://img.shields.io/badge/build-passing-brightgreen" alt="Build">
 </a>
-<a href="https://github.com/yourusername/monorepo" target="_blank">
+<a href="https://github.com/rafaeldourado8/MyFramework" target="_blank">
     <img src="https://img.shields.io/badge/python-3.11+-blue.svg" alt="Python">
 </a>
-<a href="https://github.com/yourusername/monorepo/blob/main/LICENSE" target="_blank">
+<a href="https://github.com/rafaeldourado8/MyFramework/blob/main/LICENSE" target="_blank">
     <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License">
 </a>
 </p>
@@ -41,8 +41,8 @@ Framework interno modular com 9 packages reutilizáveis:
 
 ```bash
 # Clone o repositório
-git clone https://github.com/yourusername/monorepo.git
-cd monorepo
+git clone https://github.com/rafaeldourado8/MyFramework.git
+cd MyFramework
 
 # Instale os packages
 pip install -e packages/core
@@ -151,7 +151,7 @@ import { VideoPlayer, Mosaic } from '@monorepo/video-player';
 ## Estrutura
 
 ```
-monorepo/
+MyFramework/
 ├── packages/
 │   ├── core/              # Framework DDD
 │   ├── auth/              # Autenticação JWT
@@ -161,9 +161,8 @@ monorepo/
 │   ├── video-processing/  # Processamento
 │   ├── camera-management/ # Gerenciar câmeras
 │   ├── video-workers/     # Background workers
-│   └── video-player/      # React components
-├── apps/
-│   └── api/               # Aplicações
+│   ├── video-player/      # React components
+│   └── examples/          # Exemplos
 └── docs/                  # Documentação
 ```
 
@@ -237,8 +236,8 @@ Este projeto está sob a licença MIT. Veja [LICENSE](LICENSE) para mais detalhe
 ## Suporte
 
 - 📖 [Documentação](docs/)
-- 💬 [Discussions](https://github.com/yourusername/monorepo/discussions)
-- 🐛 [Issues](https://github.com/yourusername/monorepo/issues)
+- 💬 [Discussions](https://github.com/rafaeldourado8/MyFramework/discussions)
+- 🐛 [Issues](https://github.com/rafaeldourado8/MyFramework/issues)
 
 ---
 
