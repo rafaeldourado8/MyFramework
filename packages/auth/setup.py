@@ -1,14 +1,28 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="auth-package",
-    version="1.0.0",
-    description="Authentication package with JWT and password hashing",
-    packages=find_packages(),
-    python_requires=">=3.11",
+    name="myframework-auth",
+    version="0.1.0",
+    author="Rafael Dourado",
+    author_email="your.email@example.com",
+    description="JWT authentication and password hashing with bcrypt",
+    long_description=open("README.md").read(),
+    long_description_content_type="text/markdown",
+    url="https://github.com/rafaeldourado8/MyFramework",
+    packages=find_packages(exclude=["tests*", "docs*"]),
+    classifiers=[
+        "Programming Language :: Python :: 3",
+        "Programming Language :: Python :: 3.9",
+        "Programming Language :: Python :: 3.10",
+        "Programming Language :: Python :: 3.11",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
+    ],
+    python_requires=">=3.9",
     install_requires=[
-        "passlib[bcrypt]>=1.7.4",
-        "python-jose[cryptography]>=3.3.0",
+        "myframework-core>=0.1.0",
+        "pyjwt>=2.8.0",
+        "bcrypt>=4.0.0",
         "fastapi>=0.104.0",
     ],
 )
