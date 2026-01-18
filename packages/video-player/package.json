@@ -1,0 +1,10 @@
+{
+  "name": "@monorepo/video-player",
+  "version": "1.0.0",
+  "description": "React video player components with mosaic support",
+  "main": "index.ts",
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  }
+}
