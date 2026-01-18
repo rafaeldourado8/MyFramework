@@ -1,4 +1,4 @@
-# Framework Interno - Monorepo
+# Framework Interno 
 
 <p align="center">
   <em>Framework opinioso para DDD com SOLID, autenticação, RBAC e streaming de vídeo</em>
